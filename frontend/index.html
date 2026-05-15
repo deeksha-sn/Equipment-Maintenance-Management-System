@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EMMS</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main id="loginPage" class="login-shell">
+    <section class="login-panel">
+      <div>
+        <p class="eyebrow">Engineering DBMS Mini Project</p>
+        <h1>EQUIPMENT MAINTENANCE MANAGEMENT SYSTEM</h1>
+        <p class="muted">Track equipment, maintenance schedules, reminders, downtime, and costs.</p>
+      </div>
+
+      <form id="loginForm" class="form">
+        <label>
+          Username
+          <input id="loginUsername" type="text" value="admin" required>
+        </label>
+        <label>
+          Password
+          <input id="loginPassword" type="password" value="admin123" required>
+        </label>
+        <button type="submit">Login</button>
+        <p id="loginMessage" class="message"></p>
+      </form>
+    </section>
+  </main>
+
+  <main id="appPage" class="app-shell hidden">
+    <aside class="sidebar">
+      <div class="brand">
+        <span>EMMS</span>
+        <small id="roleBadge"></small>
+      </div>
+      <nav>
+        <button class="nav-link active" data-page="dashboard">Dashboard</button>
+        <button class="nav-link" data-page="equipment">Equipment</button>
+        <button class="nav-link" data-page="schedule">Maintenance Schedule</button>
+        <button class="nav-link" data-page="history">Maintenance History</button>
+        <button class="nav-link" data-page="reports">Reports</button>
+      </nav>
+      <button id="logoutBtn" class="ghost-button">Logout</button>
+    </aside>
+
+    <section class="content">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Equipment Maintenance Management System</p>
+          <h2 id="pageTitle">Dashboard</h2>
+        </div>
+        <div class="user-chip" id="userChip"></div>
+      </header>
+
+      <section id="dashboard" class="page active"></section>
+      <section id="equipment" class="page"></section>
+      <section id="schedule" class="page"></section>
+      <section id="history" class="page"></section>
+      <section id="reports" class="page"></section>
+    </section>
+  </main>
+
+  <script src="js/api.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
