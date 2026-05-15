@@ -181,22 +181,13 @@ EMMS/
 
 ---
 
-## 📸 Screenshots
-
-> [!NOTE]
-> Add your project screenshots here to make it look even more professional!
-
-| Dashboard | Equipment List |
-| :---: | :---: |
-| ![Placeholder](https://via.placeholder.com/400x250?text=Dashboard+Screenshot) | ![Placeholder](https://via.placeholder.com/400x250?text=Inventory+Screenshot) |
-
----
 
 ## 👥 Team Members
 
-- **[Your Name]** - [USN/Roll No]
-- **[Team Member 1]** - [USN/Roll No]
-- **[Team Member 2]** - [USN/Roll No]
+- **Deeksha SN** - 1GA24CI038
+- **Ananya E Gowda** - 1GA24CI016
+- **Anagha Pandit** - 1GA24CI014
+- **Jhanvi Singh A** - 1GA25CI404
 
 ---
 
